@@ -1,4 +1,4 @@
-## Documentation - Alexa Virtual Assistant
+Documentation - Alexa Virtual Assistant
 
 This code implements a virtual assistant named Alexa using the Python programming language. Alexa is capable of performing various tasks such as playing songs on YouTube, providing current time, retrieving information from Wikipedia, telling jokes, and more.
 
@@ -10,7 +10,7 @@ This code implements a virtual assistant named Alexa using the Python programmin
 - wikipedia: Library for retrieving information from Wikipedia.
 - pyjokes: Library for generating and telling jokes.
 
-### Working of the Code
+Working of the Code
 1. Speech Recognition Setup: The `listener` object from the `speech_recognition` library is used to listen to user commands. The `engine` object from the `pyttsx3` library is used for text-to-speech conversion. The voice of the assistant is set using the `voices` property.
 
 2. Function - `talk(text)`: This function takes a text input and uses the `engine` object to convert it into speech. It then uses the `runAndWait()` method to play the speech.
@@ -19,7 +19,7 @@ This code implements a virtual assistant named Alexa using the Python programmin
 
 4. Function - `run_alexa()`: This is the main function that runs the Alexa virtual assistant. It calls the `take_command()` function to get the user's command and performs the corresponding actions based on the command.
 
-### Uses of Libraries
+Uses of Libraries
 - speech_recognition: Used for listening to and recognizing user commands.
 - pyttsx3: Used for converting text into speech for the virtual assistant's responses.
 - pywhatkit: Used for playing songs on YouTube based on user commands.
@@ -27,10 +27,10 @@ This code implements a virtual assistant named Alexa using the Python programmin
 - wikipedia: Used for retrieving information from Wikipedia to answer user queries.
 - pyjokes: Used for generating and telling jokes in response to user commands.
 
-### How to Run
+How to Run
 To run the code, ensure that the required dependencies are installed. Then, execute the script and interact with Alexa by speaking your commands.
 
-## Summary
+Summary
 This code provides a simple implementation of a virtual assistant named Alexa. It demonstrates the use of speech recognition, text-to-speech conversion, and integration with external libraries for various functionalities. Feel free to modify and expand the code to suit your requirements.
 
 Please note that this is a high-level documentation. For more detailed information, including code explanations and function parameters, refer to the comments within the code itself.
