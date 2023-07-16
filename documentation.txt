@@ -1,5 +1,3 @@
-Certainly! Here's an updated version of the documentation that includes the working of the code and explanations of the libraries used:
-
 ## Documentation - Alexa Virtual Assistant
 
 This code implements a virtual assistant named Alexa using the Python programming language. Alexa is capable of performing various tasks such as playing songs on YouTube, providing current time, retrieving information from Wikipedia, telling jokes, and more.
