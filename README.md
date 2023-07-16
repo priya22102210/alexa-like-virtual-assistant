@@ -62,3 +62,6 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use and 
 Feel free to customize the content based on your specific project and requirements.
 
 Happy interacting with Alexa Virtual Assistant!
+![poster](C/Desktop/poster.png)
+
+
